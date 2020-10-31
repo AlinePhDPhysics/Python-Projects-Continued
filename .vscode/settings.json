@@ -1,10 +1,16 @@
 {
     "python.pythonPath": "C:\\Users\\Aline\\AppData\\Local\\Microsoft\\WindowsApps\\python3.8.exe",
     "python.testing.pytestArgs": [
-        "Setembro treinos"
+        "Novembro"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.nosetestsEnabled": false,
     "python.testing.pytestEnabled": true,
-    "python.testing.promptToConfigure": false
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./Novembro",
+        "-p",
+        "*test.py"
+    ]
 }
